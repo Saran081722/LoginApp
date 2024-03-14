@@ -1,0 +1,68 @@
+.joke-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.joke-table {
+  width: 100%;
+  background-color: #d2d6d2;
+  border-collapse: collapse;
+}
+
+.header-card {
+  display: flex;
+  justify-content: space-between;
+}
+.header-style {
+  background-color: #b7de9b;
+  padding: 8px;
+  border: 2px solid #adafc7;
+  font-family: 'Roboto';
+  color: #000000;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.logout {
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.failure-msg {
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  color: #f54245;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+}
+
+@media (max-width: 575px) {
+  .header-style {
+    font-size: 14px;
+  }
+  .category-header {
+    max-width: 60px !important;
+  }
+  .logout {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .header-style {
+    font-size: 15px;
+  }
+  .logout {
+    font-size: 12px;
+  }
+}

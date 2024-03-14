@@ -1,0 +1,30 @@
+.cell-style {
+  padding: 8px;
+  border: 2px solid #ddd;
+  font-family: 'Roboto';
+  color: #000000;
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.programming {
+  color: #de3a42;
+}
+
+.misc {
+  color: #1a1af0;
+}
+
+.pun {
+  color: #f70fb5;
+}
+
+.dark {
+  color: #000000;
+}
+
+@media (max-width: 767px) {
+  .cell-style {
+    font-size: 14px;
+  }
+}
